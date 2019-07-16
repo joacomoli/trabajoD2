@@ -1,3 +1,41 @@
+html{
+    scroll-behavior:smooth;
+}
+#alexpina {
+    background-color: #F05354;
+    border-radius: 40px;
+    /*
+  margin-left: 60px;
+  margin-right: 60px;
+  */
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    position: auto;
+    text-align: center;
+    border: none;
+    width: 95%;
+    opacity: 0.9;
+    border-radius: 90px;
+    font-size: 20px;
+
+}
+
+.registerbtn:hover {
+    animation-name: agrandartexto;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
 .read-more-state {
   display: none;
 }
@@ -99,7 +137,7 @@ a:hover {
 }
 
 strong:hover {
-    font-size: 45px;
+    font-size: 35px;
     color: gold;
     animation-name: vibrar;
     animation-duration: 2.5s;
@@ -498,6 +536,16 @@ label,
     background-color: lightgrey;
     border-radius: 10px;
 }
+.arriba{
+    background-color: black;
+}
+#arriba{
+    background-color: black;
+    color: white;
+}
+#arriba:hover{background-color: white;
+color: black;
+text-decoration: none;}
 @media (max-width: 768px) {
   .timeline-heading{
     margin-left: 10px;
@@ -544,6 +592,20 @@ label,
         font-size: 12px;
     }
 
+}
+summary{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+.footer{
+    background-color: #8E66FC;
+    border-radius: 20px;
+    margin-right: none;
+    padding-right: none;
+    text-align: center;
+    margin-left: none;
+    padding-left: none;
 }
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {

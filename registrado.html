@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html"><img src="./css/images/logo.png" id="logo"></a>
+        <a href="./timelines.html">Timeline</a>
+        <a href="./eventos">Eventos</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./registrate.html">Login/registrate</a>
+        <a href="javascript:void(0);" class="icon" id="logo" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+    <div class="container">
+        <h2><strong>¡Gracias por contactarnos! hacé click <a id="redireccion_pelis" href="index.html">acá</a> para ir al sitio</strong></h2>
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/facebook.png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/instagram (1).png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/twitter.png" class="rrss">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

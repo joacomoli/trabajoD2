@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="./css/timeline.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/timeline.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
@@ -16,14 +16,18 @@
             x.className = "topnav";
         }
     }
-    </script>
- 
 
+    function desaparecer() {
+        document.getElementById("menos").style.display = "none";
+
+    }
+    </script>
 </head>
+
 <body>
     <div class="topnav" id="myTopnav">
         <a href="./index.html"><img src="./css/images/logo.png" id="logo"></a>
-        <a href="./timeline.html">Timeline</a>
+        <a href="./timelines.html">Timeline</a>
         <a href="./peliculas.html">Blog</a>
         <a href="#contacto">Login/registrate</a>
         <a href="#contacto">Contactanos</a>
@@ -31,8 +35,7 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
-        <div class="container pelis">
+    <div class="container pelis">
         <div class="row">
             <div class="col-sm-4 col-md-6 col-lg " id="peli1">
                 <h2> <strong>Hitos Feministas</strong> </h2>
@@ -63,147 +66,241 @@
             </div>
         </div>
     </div>
-            <header class="section-header">
-                <h2>Historia de tiempo</h2>
-                <h3></h3>
-            </header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="timeline">
-                            <li class="timeline wow bounceInUp">
-                                <div class="timeline-badge warning">
-                                    <!--<i class="fa fa-bullseye"></i>-->
+    <header class="section-header">
+        <h2>Historia de tiempo</h2>
+        <h3></h3>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline wow bounceInUp">
+                        <div class="timeline-badge warning">
+                            <!--<i class="fa fa-bullseye"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1848</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">El principio...</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Primera convención por los derechos de las mujeres </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted wow bounceInUp">
+                        <div class="timeline-badge danger">
+                            <!--<i class="fa fa-crosshairs"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1908</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">Huelga de las mujeres en el sector textil</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>El día de hoy, el Día Internacional de la Mujer, tiene su origen en las huelgas de mujeres del sector textil en Estados Unidos, a comienzos del siglo XX. Este sector fue el más combativo, ya desde 1857, cuando miles de mujeres salieron a la calle para protestar por sus condiciones laborales (sueldos bajos, jornadas de 12 horas y acoso sexual en el trabajo). </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline wow bounceInUp">
+                        <div class="timeline-badge warning">
+                            <!--<i class="fa fa-bullseye"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1929</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">La vuelta de las mujeres en Aba</h6>
+                            </div>
+                            <div class="timeline-body">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted wow bounceInUp">
+                        <div class="timeline-badge danger">
+                            <!--<i class="fa fa-crosshairs"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1945</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">En el trabajo y en la huelga, con fuerza
+                                    ¿Qué pasaría si no hubiera ropa limpia durante semanas?</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline wow bounceInUp">
+                        <div class="timeline-badge warning">
+                            <!--<i class="fa fa-bullseye"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1970</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">El primer año internacional de la mujer</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted wow bounceInUp">
+                        <div class="timeline-badge danger">
+                            <!--<i class="fa fa-crosshairs"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1980</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">El voto femenino</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    En muchos países las mujeres logran votar en la década de 1980. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline wow bounceInUp">
+                        <div class="timeline-badge warning">
+                            <!--<i class="fa fa-bullseye"></i>-->
+                        </div>
+                        <div class="date-info">
+                            <span class="day">1970</span><span class="month"> </span><span class="year"> </span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h6 class="timeline-title">El primer año internacional de la mujer</h6>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <details>
+        <summary id="menos" onclick="desaparecer()">
+            <h2>Ver más</h2>
+        </summary>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="timeline">
+                        <li class="timeline wow bounceInUp">
+                            <div class="timeline-badge warning">
+                                <!--<i class="fa fa-bullseye"></i>-->
+                            </div>
+                            <div class="date-info">
+                                <span class="day">1980</span><span class="month"> </span><span class="year"> </span>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6 class="timeline-title">2da. Conferencia mundial</h6>
                                 </div>
-                                <div class="date-info">
-                                    <span class="day">29</span><span class="month"> Jan</span><span class="year"> 2017</span>
+                                <div class="timeline-body">
+                                    <p>
+                                        En 1980, cinco años después de la conferencia de Ciudad de México, se celebró una Segunda Conferencia Mundial sobre la Mujer en Copenhague. El Programa de Acción resultante requería la adopción de medidas nacionales más rigurosas para asegurar que las mujeres tuvieran la posesión y el control de la propiedad, así como mejoras en los derechos de estas con respecto a la herencia, la custodia de los hijos y la pérdida de la nacionalidad. </p>
                                 </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted wow bounceInUp">
+                            <div class="timeline-badge danger">
+                                <!--<i class="fa fa-crosshairs"></i>-->
+                            </div>
+                            <div class="date-info">
+                                <span class="day">2004</span><span class="month"> </span><span class="year"> </span>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6 class="timeline-title">ya hay más mujeres con estudios universitarios que hombres en España</h6>
                                 </div>
-                            </li>
-                            <li class="timeline-inverted wow bounceInUp">
-                                <div class="timeline-badge danger">
-                                    <!--<i class="fa fa-crosshairs"></i>-->
+                                <div class="timeline-body">
+                                    <p>
+                                        Unos 130 años después de la entrada de la primera mujer en una Universidad española, las mujeres nos convertimos en mayoría en los estudios universitarios. En 2004, por primera vez, el número de mujeres con estudios universitarios (13,9% de la población) superó al de hombres (13,2%). De hecho, en el periodo entre 1994 y 2004, el porcentaje de mujeres con estudios universitarios pasó del 6,8 a ese 13,9. Hoy en día, la mayor parte de titulaciones universitarias continúan teniendo mayoría de alumnas mujeres. </p>
                                 </div>
-                                <div class="date-info">
-                                    <span class="day">04</span><span class="month"> Feb</span><span class="year"> 2017</span>
+                            </div>
+                        </li>
+                        <li class="timeline wow bounceInUp">
+                            <div class="timeline-badge warning">
+                                <!--<i class="fa fa-bullseye"></i>-->
+                            </div>
+                            <div class="date-info">
+                                <span class="day">2011</span><span class="month"> </span><span class="year"> </span>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6 class="timeline-title">Las Pussy Riots impulsan el movimiento feminista en Rusia</h6>
                                 </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
+                                <div class="timeline-body">
+                                    <p>
+                                        En algunos países, los movimientos feministas se encuentran con dificultades que no existen en otros. Rusia es uno de ellos, como contábamos hace unas semanas. Por eso, tuvo tanta importancia, en 2011, el movimiento de las Pussy Riots, un colectivo punk feminista que, con sus polémicas reivindicaciones, volvió la atención mundial hacia la situación de las mujeres en Rusia. En 2012, fueron detenidas tras una actuación en la catedral ortodoxa de Cristo Salvador de Moscú, y el juicio y su condena a dos años de cárcel fue considerado un golpe contra la libertad de expresión por Amnistía Internacional o Human Rights Watch.
+                                    </p>
                                 </div>
-                            </li>
-                            <li class="timeline wow bounceInUp">
-                                <div class="timeline-badge warning">
-                                    <!--<i class="fa fa-bullseye"></i>-->
+                            </div>
+                        </li>
+                        <li class="timeline-inverted wow bounceInUp">
+                            <div class="timeline-badge danger">
+                                <!--<i class="fa fa-crosshairs"></i>-->
+                            </div>
+                            <div class="date-info">
+                                <span class="day">2017</span><span class="month"> </span><span class="year"> </span>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h6 class="timeline-title">las Marchas de Mujeres en todo el mundo se convierten en una declaración de intenciones</h6>
                                 </div>
-                                <div class="date-info">
-                                    <span class="day">29</span><span class="month"> Jan</span><span class="year"> 2017</span>
+                                <div class="timeline-body">
+                                    <p>
+                                        Tras la elección de Donald Trump como presidente de Estados Unidos, las mujeres salieron a la calle a reivindicar sus derechos y presentar oposición a políticas discriminatorias. La marcha central tuvo lugar en Washington y reunió a aproximadamente medio millón de personas. Otras réplicas se produjeron en ciudades de todo el mundo, con un cálculo aproximado de 2,5 millones de mujeres saliendo a la calle para defender sus derechos.
+                                    </p>
                                 </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted wow bounceInUp">
-                                <div class="timeline-badge danger">
-                                    <!--<i class="fa fa-crosshairs"></i>-->
-                                </div>
-                                <div class="date-info">
-                                    <span class="day">31</span><span class="month"> Jan</span><span class="year"> 2016</span>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline wow bounceInUp">
-                                <div class="timeline-badge warning">
-                                    <!--<i class="fa fa-bullseye"></i>-->
-                                </div>
-                                <div class="date-info">
-                                    <span class="day">29</span><span class="month"> Jan</span><span class="year"> 2017</span>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted wow bounceInUp">
-                                <div class="timeline-badge danger">
-                                    <!--<i class="fa fa-crosshairs"></i>-->
-                                </div>
-                                <div class="date-info">
-                                    <span class="day">25</span><span class="month"> Jan</span><span class="year"> 2016</span>
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h6 class="timeline-title">Version 1.0.2 Released with user identified fixes/enhancements</h6>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p>
-                                            Release highlights :
-                                            Layout changed inline with other Cartwheel applications. (Menu based and full-screen).
-                                            Introduced filters and sorting of Actions items.
-                                            Print facility to support printing of any saved reports (including previous reports)
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        </div>
+    </details>
     </section>
-
-
+        <div class="container arriba">
+    <h2><a href="#myTopnav" class="button" id="arriba">Volver al principio</a></h2>
+</div>
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/facebook.png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/instagram (1).png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/twitter.png" class="rrss">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

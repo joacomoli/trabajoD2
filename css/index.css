@@ -7,7 +7,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+html{
+    scroll-behavior:smooth;
+}
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,13 +50,20 @@ strong {
     margin: 50px auto 0 auto;
     width: 80%;
 }
-
+.topnav, a{
+    text-decoration: none;
+}
+.topnav, a:hover{
+    text-decoration: none;
+}
 .topnav {
   overflow: hidden;
   background-color: #8e66fc;
   border-radius: 90px;
 }
-
+.topnav:hover{
+    text-decoration: none;
+}
 .topnav a {
     float: left;
     display: block;
@@ -70,6 +79,7 @@ strong {
     background-color: #ddd;
     color: black;
     font-family: 'Advent Pro', sans-serif;
+    text-decoration: none;
 }
 
 .topnav a.active {
@@ -147,8 +157,7 @@ a:hover {
 }
 
 strong:hover {
-    font-size: 45px;
-    color: gold;
+    font-size: 35px;
     animation-name: vibrar;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -380,10 +389,9 @@ input {
     border-radius: 90px;
 }
 
-.footer {
-    background-color: lightgrey;
-    margin: none;
 
+.footer{
+    background-color: #8E66FC;
 }
 
 @keyframes agrandartexto {
