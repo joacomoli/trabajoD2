@@ -153,9 +153,10 @@ a:hover {
 }
 strong{
     color: white;
+    font-size: 35px;
 }
 strong:hover {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     animation-name: vibrar;
     animation-duration: 2.5s;
