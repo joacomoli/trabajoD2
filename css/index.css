@@ -696,7 +696,9 @@ input {
     background: #f1f1f1;
     border-radius: 90px;
 }
-
+label{
+    font-size: 30px;
+}
 /* blog */
 .btn-group>.btn{
     background-color: green;
