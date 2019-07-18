@@ -6,6 +6,7 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Khand', sans-serif;
 }
 html{
     scroll-behavior:smooth;
@@ -53,14 +54,17 @@ strong {
 }
 .topnav, a{
     text-decoration: none;
+    font-family: 'Khand', sans-serif;
 }
 .topnav, a:hover{
     text-decoration: none;
+    font-family: 'Khand', sans-serif;
 }
 .topnav {
   overflow: hidden;
   background-color: #8e66fc;
   border-radius: 90px;
+  font-family: 'Khand', sans-serif;
 }
 .topnav:hover{
     text-decoration: none;
@@ -73,8 +77,7 @@ strong {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 45px;
-    font-family: 'Advent Pro', sans-serif;
-}
+font-family: 'Khand', sans-serif;}
 
 .topnav a:hover {
     background-color: #ddd;
@@ -82,10 +85,15 @@ strong {
     font-family: 'Advent Pro', sans-serif;
     text-decoration: none;
 }
+.active{
+        background-color: green;
+    color: violet;
+    font-family: 'Advent Pro', sans-serif;
+}
 
 .topnav a.active {
-    background-color: white;
-    color: black;
+    background-color: green;
+    color: violet;
     font-family: 'Advent Pro', sans-serif;
 }
 
@@ -340,13 +348,13 @@ hr {
     background-color: #4CAF50;
     color: white;
     padding: 16px 20px;
-    margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
     border-radius: 90px;
     font-size: 20px;
+    text-align: center;
 
 }
 

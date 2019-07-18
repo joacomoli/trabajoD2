@@ -1,9 +1,20 @@
-html{
-    scroll-behavior:smooth;
+@import url('https://fonts.googleapis.com/css?family=Khand|Teko&display=swap');
+
+* {
+    font-family: 'Khand', sans-serif;
 }
-h2{
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Khand', sans-serif;
+
+}
+
+h2 {
     text-align: center;
+    font-family: 'Khand', sans-serif;
 }
+
 #alexpina {
     background-color: #F05354;
     border-radius: 40px;
@@ -14,6 +25,7 @@ h2{
     margin-top: 20px;
     padding-bottom: 20px;
 }
+
 /* Set a style for the submit button */
 .registerbtn {
     background-color: #4CAF50;
@@ -39,40 +51,41 @@ h2{
 .registerbtn:hover {
     opacity: 1;
 }
+
 .read-more-state {
-  display: none;
+    display: none;
 }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
 }
 
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
+.read-more-state:checked~.read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
 }
 
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+.read-more-state~.read-more-trigger:before {
+    content: 'Show more';
 }
 
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+.read-more-state:checked~.read-more-trigger:before {
+    content: 'Show less';
 }
 
 .read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
 }
 
 
@@ -117,7 +130,7 @@ h2{
 }
 
 p {
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Khand', sans-serif;
     font-size: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -204,6 +217,11 @@ strong:hover {
     background-color: lightgrey;
 }
 
+#titulo {
+    font-size: 45px;
+
+}
+
 .foto_peli {
     margin-top: 10px;
     text-align: center;
@@ -236,34 +254,37 @@ strong:hover {
     background: none;
 }
 
-#peli1{
+#peli1 {
     background-color: green;
     border-radius: 40px;
     border: solid 2px blueviolet;
     box-shadow: 3px 3px 5px blueviolet;
 
 }
-#peli2{
-  background-color:green;
-  border-radius: 40px;
-  color: white;
-  
+
+#peli2 {
+    background-color: green;
+    border-radius: 40px;
+    color: white;
+
 }
-#peli3{
-  background-color:green;
-  border-radius: 40px;
- 
+
+#peli3 {
+    background-color: green;
+    border-radius: 40px;
+
 
 }
 
 
 
 /* logo */
-#logo{
-  width: 100px;
-  height: 100px;
-  background:none;
+#logo {
+    width: 100px;
+    height: 100px;
+    background: none;
 }
+
 .progress-container {
     width: 100%;
     height: 8px;
@@ -283,11 +304,14 @@ strong:hover {
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: #8e66fc;
-  border-radius: 20px;
+    overflow: hidden;
+    background-color: #8e66fc;
+    border-radius: 20px;
+    font-family: 'Khand', sans-serif;
 }
-
+a{
+    font-family: 'Khand', sans-serif;
+}
 .topnav a {
     float: left;
     display: block;
@@ -296,21 +320,23 @@ strong:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 45px;
-    font-family: 'Advent Pro', sans-serif;
+font-family: 'Khand', sans-serif;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    font-family: 'Advent Pro', sans-serif;
-    text-decoration: none;
+font-family: 'Khand', sans-serif;    text-decoration: none;
+    border-radius: 0px 0px 30px 30px;
+
 }
 
 .topnav a.active {
     background-color: white;
-    color: black;
+    color: #8e66fc;
     font-family: 'Advent Pro', sans-serif;
     text-decoration: none;
+    border-radius: 0px 0px 30px 30px;
 }
 
 .topnav .icon {
@@ -324,10 +350,12 @@ strong:hover {
     padding: 5px 0 5px;
     position: relative;
 }
+
 .timeline h6 {
     margin-bottom: 0px;
     font-size: 15px;
 }
+
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -345,27 +373,33 @@ strong:hover {
     background: -ms-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
     background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
 }
-.timeline > li {
+
+.timeline>li {
     margin-bottom: 5px;
     position: relative;
 }
-.timeline > li:before,
-.timeline > li:after {
+
+.timeline>li:before,
+.timeline>li:after {
     content: " ";
     display: table;
 }
-.timeline > li:after {
+
+.timeline>li:after {
     clear: both;
 }
-.timeline > li:before,
-.timeline > li:after {
+
+.timeline>li:before,
+.timeline>li:after {
     content: " ";
     display: table;
 }
-.timeline > li:after {
+
+.timeline>li:after {
     clear: both;
 }
-.timeline > li > .timeline-panel {
+
+.timeline>li>.timeline-panel {
     width: 45%;
     text-align: left;
     float: right;
@@ -376,7 +410,8 @@ strong:hover {
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-.timeline > li > .timeline-panel:before {
+
+.timeline>li>.timeline-panel:before {
     position: absolute;
     top: 7px;
     display: inline-block;
@@ -385,12 +420,13 @@ strong:hover {
     border-right: 0 solid #ccc;
     border-bottom: 7px solid transparent;
     content: " ";
-  border-left-width: 0;
+    border-left-width: 0;
     border-right-width: 10px;
     left: -10px;
     right: auto;
 }
-.timeline > li > .timeline-panel:after {
+
+.timeline>li>.timeline-panel:after {
     position: absolute;
     top: 7px;
     display: inline-block;
@@ -399,12 +435,13 @@ strong:hover {
     border-right: 0 solid #fff;
     border-bottom: 7px solid transparent;
     content: " ";
-  border-left-width: 0;
+    border-left-width: 0;
     border-right-width: 10px;
     left: -10px;
     right: auto;
 }
-.timeline > li > .timeline-badge {
+
+.timeline>li>.timeline-badge {
     color: #fff;
     width: 35px;
     height: 35px;
@@ -423,180 +460,271 @@ strong:hover {
     border-bottom-left-radius: 50%;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline>li.timeline-inverted>.timeline-panel {
     float: left;
 }
-.timeline > li.timeline-inverted > .timeline-panel:before {
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
     border-left-width: 12px;
     border-right-width: 0px;
     left: auto;
     right: -12px;
 }
-.timeline-inverted{
-  padding-top:5px;
+
+.timeline-inverted {
+    padding-top: 5px;
 }
-.timeline > li.timeline-inverted > .timeline-panel:after {
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
     border-left-width: 12px;
     border-right-width: 0px;
     left: auto;
     right: -12px;
 }
-.timeline-heading{
-    color:#000;
+
+.timeline-heading {
+    color: #000;
 }
+
 .timeline-title {
     margin-top: 0;
     color: inherit;
 }
-.timeline-body > p,
-.timeline-body > ul {
+
+.timeline-body>p,
+.timeline-body>ul {
     margin-bottom: 0;
     font-size: 13px;
-        color: #777;
-}
-.timeline-body > p + p {
-    margin-top: 5px;
-}
-.overlay {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
+    color: #777;
 }
 
-.timeline .date-info{
+.timeline-body>p+p {
+    margin-top: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+}
+
+.timeline .date-info {
     position: absolute;
     top: -2px;
     left: 40%;
     margin-left: -28px;
     width: 100px;
 }
-.timeline-inverted .date-info{
-        left: 53%;
+
+.timeline-inverted .date-info {
+    left: 53%;
 }
 
 
-.date-info .month{
+.date-info .month {
     position: absolute;
     top: 10px;
     font-size: 14px;
     left: 70px;
 }
-.date-info .year{
+
+.date-info .year {
     position: absolute;
     top: 23px;
     font-size: 14px;
     left: 70px;
 }
-.date-info .day{
-        font-size: 35px;
+
+.date-info .day {
+    font-size: 35px;
 }
 
 .form__group {
-  position: relative;
-  padding: 15px 0 0;
-  margin-top: 10px;
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
 }
 
 .form__field {
-  font-family: inherit;
-  width: 100%;
-  border: 0;
-  border-bottom: 1px solid #d2d2d2;
-  outline: 0;
-  font-size: 16px;
-  color: #212121;
-  padding: 7px 0;
-  background: transparent;
-  transition: border-color 0.2s;
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    outline: 0;
+    font-size: 16px;
+    color: #212121;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
 }
 
-.form__field::placeholder {
-  color: transparent;
-}
 
-.form__field:placeholder-shown ~ .form__label {
-  font-size: 16px;
-  cursor: text;
-  top: 20px;
-}
-
-label,
-.form__field:focus ~ .form__label {
-  position: absolute;
-  top: 0;
-  display: block;
-  transition: 0.2s;
-  font-size: 21px;
-  color: #9b9b9b;
-}
-
-.form__field:focus ~ .form__label {
-  color: #009788;
+.form__field:focus~.form__label {
+    color: #009788;
 }
 
 .form__field:focus {
-  padding-bottom: 6px;
-  margin-top: 12px;
-  border-bottom: 2px solid #009788;
-  background-color: white;
-  border-radius: 10px;
+    padding-bottom: 6px;
+    margin-top: 12px;
+    border-bottom: 2px solid #009788;
+    background-color: white;
+    border-radius: 10px;
 }
-.text{
+
+.text {
     background-color: lightgrey;
     border-radius: 10px;
 }
-.arriba{
+
+.arriba {
     background-color: black;
 }
-#arriba{
+
+#arriba {
     background-color: black;
     color: white;
 }
-#arriba:hover{background-color: white;
-color: black;
-text-decoration: none;
-border:solid 2px black;
-border-radius: 30px;}
-.registerbtn{
+
+#arriba:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+    border-radius: 30px;
+}
+
+.registerbtn {
     background-color: white;
     color: black;
 }
-.registerbtn:hover{
+
+.registerbtn:hover {
     background-color: black;
     color: white;
 }
+/* register */
+input[type=text],
+input[type=password],
+input[type=textarea],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=textarea]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 90px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.registerbtn:hover {
+    animation-name: agrandartexto;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.registrate {
+    background-color: lightgrey;
+    border-radius: 10px;
+
+
+    margin-top: 20px;
+    position: auto;
+    display: block;
+}
+
+input {
+    border-radius: 90px;
+}
+
+#form18 {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 90px;
+}
+
+
 @media (max-width: 768px) {
-  .timeline-heading{
-    margin-left: 10px;
-  }
+    .timeline-heading {
+        margin-left: 10px;
+    }
 
     .timeline:before {
         left: 0.9%;
     }
-    .timeline > li > .timeline-badge {
+
+    .timeline>li>.timeline-badge {
         left: 2.2%;
     }
-    .timeline > li > .timeline-panel{
+
+    .timeline>li>.timeline-panel {
         width: 94%;
     }
-    .timeline > li.timeline-inverted > .timeline-panel {
+
+    .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
     }
 
-    .timeline > li.timeline-inverted > .timeline-panel:before {
+    .timeline>li.timeline-inverted>.timeline-panel:before {
         border-left-width: 0;
         border-right-width: 10px;
         left: -10px;
         right: auto;
     }
-    .timeline > li.timeline-inverted > .timeline-panel:after {
+
+    .timeline>li.timeline-inverted>.timeline-panel:after {
         border-left-width: 0;
         border-right-width: 10px;
         left: -10px;
         right: auto;
     }
+
     .date-info {
         position: absolute;
         top: 1px;
@@ -605,21 +733,26 @@ border-radius: 30px;}
         margin-top: 05px;
         width: auto;
     }
+
     .date-info .day {
         font-size: 12px;
     }
-    .date-info .month,.date-info .year{
+
+    .date-info .month,
+    .date-info .year {
         position: initial;
         font-size: 12px;
     }
 
 }
-summary{
+
+summary {
     text-align: center;
     width: 100%;
     text-decoration: none;
 }
-.footer{
+
+.footer {
     background-color: #8E66FC;
     border-radius: 20px;
     margin-right: none;
@@ -628,6 +761,7 @@ summary{
     margin-left: none;
     padding-left: none;
 }
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -662,4 +796,3 @@ summary{
         text-align: left;
     }
 }
-
