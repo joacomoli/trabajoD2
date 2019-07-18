@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -28,7 +28,7 @@
         <a href="./index.html"><img src="./css/images/logo.png" id="logo"></a>
         <a href="./timelines.html">Timeline</a>
         <a href="./blog.html">Blog</a>
-        <a href="#contacto">Login/registrate</a>
+        <a href="./register.html">Login/registrate</a>
         <a href="#contacto">Contactanos</a>
         <a href="javascript:void(0);" class="icon" id="logo" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -44,7 +44,7 @@
                         <!--
       <p>     La serie gira en torno a un asalto de varios días preparado contra la Fábrica Nacional de Moneda y Timbre. Un hombre misterioso, conocido como «El Profesor», está planeando el mayor atraco a bancos de la historia.  El objetivo es entrar en la Fábrica Nacional de Moneda y Timbre e imprimir 2400 millones de euros. El equipo requiere once días de reclusión, durante los cuales tendrán que lidiar con las fuerzas de élite de la policía.</p>
       -->
-                        <a href="" class="button">ver más</a>
+                        <a href="#timeline" class="button">ver más</a>
                         <br>
                     </div>
                     <div class="col-sm-4 col-md-6 col-lg " id="peli1">
@@ -53,22 +53,22 @@
                         <!--
       <p>    La primera temporada parte con el Estrella Polar zarpando a lo que será la aventura más grande de sus vidas, cuando una misteriosa tormenta provocada por la puesta en marcha del acelerador de partículas los encuentra en plena noche, entonces todos los tripulantes descubrirán que la tierra como ellos la conocen ha desaparecido, que el 99% de la superficie es agua, y que estar en ese barco es su única forma de mantenerse con vida. El capitán Ricardo Montero</p>
     -->
-                        <a href="" class="button">ver más</a>
+                        <a href="./blog.html" class="button">ver más</a>
                         <br>
                     </div>
-                    <div class="col-sm-4 col-md-6 col-lg " id="peli3">
+                    <div class="col-sm-4 col-md-6 col-lg " id="peli1">
                         <h2> <strong>Blogs destacados</strong> </h2>
                         <img src="./css/images/portada3.png" class="foto_peli">
                         <!--
      <p>     Diego Serrano (Antonio Resines) padre viudo de familia al cargo de sus tres hijos llamados Marcos, Guille y Curro. En cambio, Lucía (Belén Rueda) mujer divorciada madre de dos hijas llamadas Eva y Teté. Todo cambia cuando Lucía (en un viaje hacia la playa) sufre un pinchazo y la persona que para a socorrerla no es otra que Diego (primer novio de joven). Después de casarse, ambas familias tendrán que convivir bajo el mismo techo y obligados a entenderse.</p>
    -->
-                        <a href="" class="button">ver más</a>
+                        <a href="./blog.html#blog" class="button">ver más</a>
                         <br>
                     </div>
                 </div>
             </div>
             <header class="section-header">
-                <h2>Historia de tiempo</h2>
+                <h2 id="timeline">Historia de tiempo</h2>
                 <h3></h3>
             </header>
             <div class="container-fluid">
@@ -202,14 +202,14 @@ El concepto se asocia con el sufragio femenino, aunque después adquiere mayor s
             </div>
         </div>
     </section>
-            <div class="container arriba">
-    <h2><a href="./timelines.html" class="button" id="arriba">Ver más</a></h2>
-</div>
+
+    <a href="./timelines.html" class="button" id="arriba">Ver más</a>
+
     <div class="container text">
         <div class="form__group">
   <textarea id="message" class="form__field" placeholder="Your Message" rows="6"></textarea>
   <label for="message" class="form__label">Escribe algo...</label>
- <a id="redireccion_pelis" href="registrado.html"><button type="submit" class="registerbtn">Enviar</button></a>
+ <a class="button" href="registrado.html"><button type="submit" class="registerbtn">Enviar</button></a>
 
 </div>
     </div>

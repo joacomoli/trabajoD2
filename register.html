@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!------ Include the above in your HEAD tag ---------->
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html"><img src="./css/images/logo.png" id="logo"></a>
+        <a href="./timelines.html">Timeline</a>
+        <a href="./blog.html">Blog</a>
+        <a href="#contacto">Login/registrate</a>
+        <a href="#contacto">Contactanos</a>
+        <a href="javascript:void(0);" class="icon" id="logo" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <section class="section-spacing text-center" id="features">
+        <div class="container">
+            <div class="container pelis">
+                <div class="row">
+                    <div class="col-sm-4 col-md-6 col-lg " id="peli1">
+                        <h2> <strong>Hitos Feministas</strong> </h2>
+                        <img src="./css/images/portada1.png" class="foto_peli">
+                        <!--
+      <p>     La serie gira en torno a un asalto de varios días preparado contra la Fábrica Nacional de Moneda y Timbre. Un hombre misterioso, conocido como «El Profesor», está planeando el mayor atraco a bancos de la historia.  El objetivo es entrar en la Fábrica Nacional de Moneda y Timbre e imprimir 2400 millones de euros. El equipo requiere once días de reclusión, durante los cuales tendrán que lidiar con las fuerzas de élite de la policía.</p>
+      -->
+                        <a href="#timeline" class="button">ver más</a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg " id="peli1">
+                        <h2> <strong>Novedades</strong> </h2>
+                        <img src="./css/images/portada2.png" class="foto_peli">
+                        <!--
+      <p>    La primera temporada parte con el Estrella Polar zarpando a lo que será la aventura más grande de sus vidas, cuando una misteriosa tormenta provocada por la puesta en marcha del acelerador de partículas los encuentra en plena noche, entonces todos los tripulantes descubrirán que la tierra como ellos la conocen ha desaparecido, que el 99% de la superficie es agua, y que estar en ese barco es su única forma de mantenerse con vida. El capitán Ricardo Montero</p>
+    -->
+                        <a href="./blog.html" class="button">ver más</a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 col-md-6 col-lg " id="peli1">
+                        <h2> <strong>Blogs destacados</strong> </h2>
+                        <img src="./css/images/portada3.png" class="foto_peli">
+                        <!--
+     <p>     Diego Serrano (Antonio Resines) padre viudo de familia al cargo de sus tres hijos llamados Marcos, Guille y Curro. En cambio, Lucía (Belén Rueda) mujer divorciada madre de dos hijas llamadas Eva y Teté. Todo cambia cuando Lucía (en un viaje hacia la playa) sufre un pinchazo y la persona que para a socorrerla no es otra que Diego (primer novio de joven). Después de casarse, ambas familias tendrán que convivir bajo el mismo techo y obligados a entenderse.</p>
+   -->
+                        <a href="./blog.html#blog" class="button">ver más</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+    <form action="./registrado.html ">
+        <div class="container registrate">
+            <h1>Contáctanos</h1>
+            <p>Por favor deja acá tu mensaje</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Ingresa tu Email, de esa forma te contactaremos" name="email" required>
+            <!--Material textarea-->
+            <div class="md-form mb-4 pink-textarea active-pink-textarea">
+                <textarea id="form18" class="md-textarea form-control" rows="3" placeholder="Escriba su mensaje" required></textarea>
+            </div>
+            <p>Dandole a aceptar estas de acuerdo con nuestros <a href="./index.html" id="redireccion_pelis">Términos y condiciones</a>.</p>
+            <a id="redireccion_pelis" href="registrado.html"><button type="submit" class="registerbtn">Enviar</button></a>
+        </div>
+    </form>
+
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/facebook.png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/instagram (1).png" class="rrss">
+                </div>
+                <div class="col-sm-4 col-md-6 col-lg ">
+                    <img src="./css/images/twitter.png" class="rrss">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <body>
+    </body>
+
+</html>
