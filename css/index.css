@@ -151,10 +151,12 @@ a:hover {
     padding-right: 20px;
     animation: none;
 }
-
+strong{
+    color: white;
+}
 strong:hover {
     font-size: 35px;
-    color: gold;
+    color: white;
     animation-name: vibrar;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -353,7 +355,7 @@ font-family: 'Khand', sans-serif;    text-decoration: none;
 
 .timeline h6 {
     margin-bottom: 0px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .timeline:before {
@@ -489,6 +491,7 @@ font-family: 'Khand', sans-serif;    text-decoration: none;
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    font-size: 20px;
 }
 
 .timeline-body>p,
@@ -500,6 +503,10 @@ font-family: 'Khand', sans-serif;    text-decoration: none;
 
 .timeline-body>p+p {
     margin-top: 5px;
+}
+.timeline-body>p,.timeline-body>ul:hover{
+    font-size: 20px;
+
 }
 
 .overlay {
@@ -689,7 +696,17 @@ input {
     border-radius: 90px;
 }
 
-
+/* blog */
+.btn-group>.btn{
+    background-color: green;
+    border-color: lightgreen;
+}
+.card-link{
+    color: green;
+}
+.button-addon2{
+    color: green;
+}
 @media (max-width: 768px) {
     .timeline-heading {
         margin-left: 10px;
@@ -794,5 +811,10 @@ summary {
         float: none;
         display: block;
         text-align: left;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container{
+        max-width: 2140px;
     }
 }
